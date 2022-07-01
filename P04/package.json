@@ -1,0 +1,45 @@
+{
+  "name": "ull-esit-inf-dsi-21-22-prct04-arrays-tuples-enums-alu0101327372",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ejercicio-1.js",
+  "scripts": {
+    "start1": "tsc-watch --onSuccess \"node dist/ejercicio-1.js\"",
+    "start2": "tsc-watch --onSuccess \"node dist/ejercicio-2.js\"",
+    "start3": "tsc-watch --onSuccess \"node dist/ejercicio-3.js\"",
+    "start4": "tsc-watch --onSuccess \"node dist/ejercicio-4.js\"",
+    "start5": "tsc-watch --onSuccess \"node dist/ejercicio-5.js\"",
+    "start6": "tsc-watch --onSuccess \"node dist/ejercicio-6.js\"",
+    "start7": "tsc-watch --onSuccess \"node dist/ejercicio-7.js\"",
+    "start8": "tsc-watch --onSuccess \"node dist/ejercicio-8.js\"",
+    "start9": "tsc-watch --onSuccess \"node dist/ejercicio-9.js\"",
+    "start10": "tsc-watch --onSuccess \"node dist/ejercicio-10.js\"",
+    "startmod1": "tsc-watch --onSuccess \"node dist/ejercicio-mod1.js\"",
+    "test": "mocha",
+    "doc": "typedoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct04-arrays-tuples-enums-alu0101327372.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct04-arrays-tuples-enums-alu0101327372/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct04-arrays-tuples-enums-alu0101327372#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "chai": "^4.3.6",
+    "eslint": "^8.10.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^9.2.1",
+    "ts-node": "^10.7.0",
+    "tsc-watch": "^4.6.0",
+    "typedoc": "^0.22.13"
+  }
+}

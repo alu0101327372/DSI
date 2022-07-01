@@ -1,0 +1,2638 @@
+{
+  "songs": [
+    {
+      "name": "Black or White",
+      "artists": "Michael Jackson",
+      "length": 254,
+      "genres": [
+        "Pop"
+      ],
+      "plays": 3000000,
+      "isSingle": true
+    },
+    {
+      "name": "Scatman",
+      "artists": "Scatman John",
+      "length": 211,
+      "genres": [
+        "Electronic"
+      ],
+      "plays": 1000000,
+      "isSingle": true
+    },
+    {
+      "name": "She Looks So Perfect",
+      "artists": "5SOS",
+      "length": 219,
+      "genres": [
+        "Pop"
+      ],
+      "plays": 304056180,
+      "isSingle": true
+    },
+    {
+      "name": "Solo Amigos",
+      "artists": "Adexe Y Nau",
+      "length": 225,
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "plays": 5000000,
+      "isSingle": true
+    },
+    {
+      "name": "Ella Me Levantó",
+      "artists": "Daddy Yankee",
+      "length": 210,
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "plays": 514400,
+      "isSingle": true
+    },
+    {
+      "name": "Speed Demon",
+      "artists": "Michael Jackson",
+      "length": 270,
+      "genres": [
+        "Pop",
+        "Electronic"
+      ],
+      "plays": 3000000,
+      "isSingle": false
+    },
+    {
+      "name": "Freed From Desire",
+      "artists": "Gala",
+      "length": 214,
+      "genres": [
+        "Electronic"
+      ],
+      "plays": 145000000,
+      "isSingle": true
+    },
+    {
+      "name": "Bicycle Race",
+      "artists": "Queen",
+      "length": 183,
+      "genres": [
+        "Rock"
+      ],
+      "plays": 18000000,
+      "isSingle": false
+    },
+    {
+      "name": "Love Tonight",
+      "artists": "Shouse",
+      "length": 239,
+      "genres": [
+        "Electronic"
+      ],
+      "plays": 4000600,
+      "isSingle": true
+    },
+    {
+      "name": "Shake That",
+      "artists": "Eminem",
+      "length": 275,
+      "genres": [
+        "Rap"
+      ],
+      "plays": 150000,
+      "isSingle": true
+    },
+    {
+      "name": "Onomeatropella",
+      "artists": "Bejo",
+      "length": 204,
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "plays": 22000,
+      "isSingle": true
+    },
+    {
+      "name": "Kiss Me More",
+      "artists": "Doja Cat",
+      "length": 316,
+      "genres": [
+        "Rap"
+      ],
+      "plays": 72000000,
+      "isSingle": false
+    },
+    {
+      "name": "Como Camarón",
+      "artists": "Estopa",
+      "length": 218,
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "plays": 34000000,
+      "isSingle": false
+    },
+    {
+      "name": "Are You Ready?",
+      "artists": "Maneskin",
+      "length": 154,
+      "genres": [
+        "Indie"
+      ],
+      "plays": 7445368,
+      "isSingle": false
+    },
+    {
+      "name": "On Melancholy Hill",
+      "artists": "Gorillaz",
+      "length": 266,
+      "genres": [
+        "Indie"
+      ],
+      "plays": 52000000,
+      "isSingle": true
+    },
+    {
+      "name": "Soy Uno Más",
+      "artists": "Lit Killah",
+      "length": 198,
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "plays": 3000300,
+      "isSingle": true
+    },
+    {
+      "name": "Otro Trago",
+      "artists": "Sech",
+      "length": 231,
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "plays": 32000000,
+      "isSingle": true
+    },
+    {
+      "name": "Devuélveme a Mi Chica",
+      "artists": "Hombres G",
+      "length": 196,
+      "genres": [
+        "Pop"
+      ],
+      "plays": 141000000,
+      "isSingle": true
+    },
+    {
+      "name": "Paranoid",
+      "artists": "Black Sabbath",
+      "length": 172,
+      "genres": [
+        "Rock"
+      ],
+      "plays": 16000000,
+      "isSingle": true
+    },
+    {
+      "name": "Stairway To Heaven",
+      "artists": "Led Zeppelin",
+      "length": 482,
+      "genres": [
+        "Rock"
+      ],
+      "plays": 78000000,
+      "isSingle": true
+    },
+    {
+      "name": "Sweet Child o' Mine",
+      "artists": "Guns N' Roses",
+      "length": 303,
+      "genres": [
+        "Rock"
+      ],
+      "plays": 150000000,
+      "isSingle": false
+    },
+    {
+      "name": "Es Épico",
+      "artists": "Canserbero",
+      "length": 137,
+      "genres": [
+        "Rap"
+      ],
+      "plays": 207000,
+      "isSingle": false
+    },
+    {
+      "name": "Gangsta Paradise",
+      "artists": "Coolio",
+      "length": 257,
+      "genres": [
+        "Rap"
+      ],
+      "plays": 21000000,
+      "isSingle": true
+    },
+    {
+      "name": "I Gotta Feeling",
+      "artists": "Black Eyed Peas",
+      "length": 292,
+      "genres": [
+        "Rap"
+      ],
+      "plays": 48000000,
+      "isSingle": true
+    },
+    {
+      "name": "Cry Baby",
+      "artists": "Melanie Martinez",
+      "length": 240,
+      "genres": [
+        "Indie"
+      ],
+      "plays": 16000000,
+      "isSingle": true
+    },
+    {
+      "name": "Daddy Issues",
+      "artists": "The Neighbourhood",
+      "length": 257,
+      "genres": [
+        "Indie"
+      ],
+      "plays": 46000000,
+      "isSingle": true
+    },
+    {
+      "name": "Training Wheels",
+      "artists": "Melanie Martinez",
+      "length": 206,
+      "genres": [
+        "Indie"
+      ],
+      "plays": 71000000,
+      "isSingle": false
+    },
+    {
+      "name": "Moonlight Sonata",
+      "artists": "Ludwig van Beethoven",
+      "length": 900,
+      "genres": [
+        "Classical"
+      ],
+      "plays": 185739475,
+      "isSingle": false
+    },
+    {
+      "name": "Für Elise",
+      "artists": "Ludwig van Beethoven",
+      "length": 307,
+      "genres": [
+        "Classical"
+      ],
+      "plays": 16000000,
+      "isSingle": true
+    },
+    {
+      "name": "Spring",
+      "artists": "Antonio Vivaldi",
+      "length": 599,
+      "genres": [
+        "Classical"
+      ],
+      "plays": 2800000,
+      "isSingle": false
+    },
+    {
+      "name": "Symphony No.9",
+      "artists": "Ludwig van Beethoven",
+      "length": 3900,
+      "genres": [
+        "Classical"
+      ],
+      "plays": 112000000,
+      "isSingle": false
+    },
+    {
+      "name": "Habanera",
+      "artists": "Georges Bizet",
+      "length": 131,
+      "genres": [
+        "Classical"
+      ],
+      "plays": 19000000,
+      "isSingle": false
+    },
+    {
+      "name": "Ain't No Mountain High Enough",
+      "artists": "Marvin Gaye",
+      "length": 144,
+      "genres": [
+        "Soul"
+      ],
+      "plays": 63007906,
+      "isSingle": true
+    },
+    {
+      "name": "I Feel Good",
+      "artists": "James Brown",
+      "length": 165,
+      "genres": [
+        "Soul"
+      ],
+      "plays": 79856037,
+      "isSingle": true
+    },
+    {
+      "name": "Happy",
+      "artists": "Pharrell Williams",
+      "length": 240,
+      "genres": [
+        "Soul"
+      ],
+      "plays": 972531465,
+      "isSingle": true
+    },
+    {
+      "name": "Rolling in the Deep",
+      "artists": "Adele",
+      "length": 233,
+      "genres": [
+        "Soul"
+      ],
+      "plays": 2006117325,
+      "isSingle": false
+    },
+    {
+      "name": "I Heard It Through the Grapevine",
+      "artists": "Marvin Gaye",
+      "length": 199,
+      "genres": [
+        "Soul"
+      ],
+      "plays": 38421517,
+      "isSingle": true
+    },
+    {
+      "name": "The Gambler",
+      "artists": "Kenny Rogers",
+      "length": 210,
+      "genres": [
+        "Country"
+      ],
+      "plays": 159719891,
+      "isSingle": true
+    },
+    {
+      "name": "Have You Ever Seen The Rain",
+      "artists": "Creedence Clearwater Revival",
+      "length": 159,
+      "genres": [
+        "Country"
+      ],
+      "plays": 201249581,
+      "isSingle": false
+    },
+    {
+      "name": "Fortunate Son",
+      "artists": "Creedence Clearwater Revival",
+      "length": 141,
+      "genres": [
+        "Country"
+      ],
+      "plays": 81953717,
+      "isSingle": false
+    },
+    {
+      "name": "Achy Breaky Heart",
+      "artists": "Billy Ray Cyrus",
+      "length": 234,
+      "genres": [
+        "Country"
+      ],
+      "plays": 87772982,
+      "isSingle": false
+    },
+    {
+      "name": "Take Me Home, Country Roads",
+      "artists": "John Denver",
+      "length": 197,
+      "genres": [
+        "Country"
+      ],
+      "plays": 428957959,
+      "isSingle": true
+    },
+    {
+      "name": "The Trooper",
+      "artists": "Iron Maiden",
+      "length": 250,
+      "genres": [
+        "Metal"
+      ],
+      "plays": 58190738,
+      "isSingle": true
+    },
+    {
+      "name": "Nothing Else Matters",
+      "artists": "Metallica",
+      "length": 389,
+      "genres": [
+        "Metal"
+      ],
+      "plays": 1108992985,
+      "isSingle": true
+    },
+    {
+      "name": "Chop Suey!",
+      "artists": "System Of A Down",
+      "length": 208,
+      "genres": [
+        "Metal"
+      ],
+      "plays": 1150132006,
+      "isSingle": true
+    },
+    {
+      "name": "Duality",
+      "artists": "Slipknot",
+      "length": 213,
+      "genres": [
+        "Metal"
+      ],
+      "plays": 326200590,
+      "isSingle": true
+    },
+    {
+      "name": "Live Wire",
+      "artists": "Mötley Crüe",
+      "length": 197,
+      "genres": [
+        "Metal"
+      ],
+      "plays": 20215420,
+      "isSingle": true
+    },
+    {
+      "name": "Under Pressure",
+      "artists": "Queen",
+      "length": 248,
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "plays": 204518599,
+      "isSingle": true
+    },
+    {
+      "name": "Stone Cold Crazy",
+      "artists": "Queen",
+      "length": 132,
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "plays": 3223138,
+      "isSingle": false
+    },
+    {
+      "name": "The Monster",
+      "artists": "Eminem",
+      "length": 250,
+      "genres": [
+        "Pop",
+        "Rap"
+      ],
+      "plays": 828713854,
+      "isSingle": true
+    }
+  ],
+  "albums": [
+    {
+      "name": "El Cartel: The Big Boss",
+      "author": "Daddy Yankee",
+      "date": "05/06/2007",
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "songs": [
+        "Ella Me Levantó"
+      ]
+    },
+    {
+      "name": "Dangerous",
+      "author": "Michael Jackson",
+      "date": "26/11/1991",
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "songs": []
+    },
+    {
+      "name": "Scatman's World",
+      "author": "Scatman John",
+      "date": "10/07/1995",
+      "genres": [
+        "Pop",
+        "Electronic"
+      ],
+      "songs": [
+        "Scatman"
+      ]
+    },
+    {
+      "name": "Jazz",
+      "author": "Queen",
+      "date": "10/11/1978",
+      "genres": [
+        "Rock"
+      ],
+      "songs": [
+        "Bicycle Race"
+      ]
+    },
+    {
+      "name": "Curtain Call: The Hits",
+      "author": "Eminem",
+      "date": "06/12/2005",
+      "genres": [
+        "Rap"
+      ],
+      "songs": [
+        "Shake That"
+      ]
+    },
+    {
+      "name": "Plastic Beach",
+      "author": "Gorillaz",
+      "date": "09/03/2010",
+      "genres": [
+        "Pop",
+        "Electronic",
+        "Indie"
+      ],
+      "songs": [
+        "On Melancholy Hill"
+      ]
+    },
+    {
+      "name": "Best of Beethoven",
+      "author": "Ludwig van Beethoven",
+      "date": "03/07/1990",
+      "genres": [
+        "Classical"
+      ],
+      "songs": [
+        "Moonlight Sonata",
+        "Symphony No.9"
+      ]
+    },
+    {
+      "name": "21",
+      "author": "Adele",
+      "date": "29/11/2012",
+      "genres": [
+        "Pop",
+        "Soul"
+      ],
+      "songs": [
+        "Rolling in the Deep"
+      ]
+    },
+    {
+      "name": "The Gambler",
+      "author": "Kenny Rogers",
+      "date": "01/11/1978",
+      "genres": [
+        "Country"
+      ],
+      "songs": [
+        "The Gambler"
+      ]
+    },
+    {
+      "name": "Piece of Mind",
+      "author": "Iron Maiden",
+      "date": "16/05/1983",
+      "genres": [
+        "Metal"
+      ],
+      "songs": [
+        "The Trooper"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "name": "Adexe Y Nau",
+      "members": [
+        "Adexe",
+        "Nau"
+      ],
+      "date": "03/07/2015",
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "albums": [],
+      "listeners": 499119
+    },
+    {
+      "name": "5SOS",
+      "members": [
+        "Luke Hemmings",
+        "Calum Hood",
+        "Ashton Irwin",
+        "Michael Clifford"
+      ],
+      "date": "03/12/2011",
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "albums": [],
+      "listeners": 20473261
+    },
+    {
+      "name": "Estopa",
+      "members": [
+        "David Muñoz",
+        "José Muñoz"
+      ],
+      "date": "18/10/1999",
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "albums": [],
+      "listeners": 2725900
+    },
+    {
+      "name": "Hombres G",
+      "members": [
+        "David Summers",
+        "Dani Mezquita Hardy",
+        "Rafa Gutiérrez Muñoz",
+        "Javier Molina"
+      ],
+      "date": "07/12/1982",
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "listeners": 7008639
+    },
+    {
+      "name": "Shouse",
+      "members": [
+        "Ed Service",
+        "Jack Madin"
+      ],
+      "date": "23/05/2015",
+      "genres": [
+        "Electronic"
+      ],
+      "albums": [],
+      "listeners": 14073877
+    },
+    {
+      "name": "Gorillaz",
+      "members": [
+        "Damon Albarn",
+        "Jamie Hewlett",
+        "Remi Kabaka Jr."
+      ],
+      "date": "09/08/1998",
+      "genres": [
+        "Electronic",
+        "Rap",
+        "Indie"
+      ],
+      "albums": [
+        "Plastic Beach"
+      ],
+      "listeners": 15967069
+    },
+    {
+      "name": "Queen",
+      "members": [
+        "Freddie Mercury",
+        "Brian May",
+        "Roger Taylor",
+        "John Deacon"
+      ],
+      "date": "18/07/1970",
+      "genres": [
+        "Rock"
+      ],
+      "albums": [
+        "Jazz"
+      ],
+      "listeners": 37234115
+    },
+    {
+      "name": "Black Sabbath",
+      "members": [
+        "Ozzy Osbourne",
+        "Tony Iommi",
+        "Geezer Butler",
+        "Bill Ward"
+      ],
+      "date": "23/12/1968",
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "listeners": 8972937
+    },
+    {
+      "name": "Led Zeppelin",
+      "members": [
+        "Jimmy Page",
+        "Robert Plant",
+        "John Paul Jones",
+        "John Bonham"
+      ],
+      "date": "13/08/1968",
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "listeners": 15554158
+    },
+    {
+      "name": "Guns N' Roses",
+      "members": [
+        "Axl Rose",
+        "Slash",
+        "Duff McKagan",
+        "Dizzy Reed",
+        "Richard Fortus",
+        "Frank Ferrer",
+        "Melissa Reese"
+      ],
+      "date": "20/3/1985",
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "listeners": 20583677
+    },
+    {
+      "name": "Black Eyed Peas",
+      "members": [
+        "Will.i.am",
+        "Apl.de.ap",
+        "Taboo",
+        "J. Rey Soul"
+      ],
+      "date": "02/05/1995",
+      "genres": [
+        "Pop",
+        "Rap"
+      ],
+      "albums": [],
+      "listeners": 30317945
+    },
+    {
+      "name": "Maneskin",
+      "members": [
+        "Damiano David",
+        "Victoria de Angelis",
+        "Ethan Torchio",
+        "Thomas Raggi"
+      ],
+      "date": "11/19/2016",
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "listeners": 20293668
+    },
+    {
+      "name": "The Neighbourhood",
+      "members": [
+        "Jesse Rutherford",
+        "Zach Abels",
+        "Jeremy Freedman",
+        "Mikey Margott"
+      ],
+      "date": "23/08/2011",
+      "genres": [
+        "Rock",
+        "Rap",
+        "Indie"
+      ],
+      "albums": [],
+      "listeners": 28412653
+    },
+    {
+      "name": "Creedence Clearwater Revival",
+      "members": [
+        "Brandon Fried",
+        "John Fogerty",
+        "Tom Fogerty",
+        "Stu Cook",
+        "Doug Clifford"
+      ],
+      "date": "01/01/1968",
+      "genres": [
+        "Rock",
+        "Country"
+      ],
+      "albums": [],
+      "listeners": 15841055
+    },
+    {
+      "name": "Iron Maiden",
+      "members": [
+        "Steve Harris",
+        "Bruce Dickinson",
+        "Dave Murray",
+        "Adrian Smith",
+        "Janick Gers",
+        "Nicko McBrain"
+      ],
+      "date": "5/12/1975",
+      "genres": [
+        "Metal"
+      ],
+      "albums": [
+        "Piece of Mind"
+      ],
+      "listeners": 6585948
+    },
+    {
+      "name": "Metallica",
+      "members": [
+        "Lars Ulrich",
+        "James Hetfield",
+        "Kirk Hammett",
+        "Robert Trujillo"
+      ],
+      "date": "28/10/1981",
+      "genres": [
+        "Metal"
+      ],
+      "albums": [],
+      "listeners": 18015132
+    },
+    {
+      "name": "System Of A Down",
+      "members": [
+        "Serj Tankian",
+        "Daron Malakian",
+        "Shavo Odadjian",
+        "John Dolmayan"
+      ],
+      "date": "12/05/1997",
+      "genres": [
+        "Metal"
+      ],
+      "albums": [],
+      "listeners": 11659759
+    },
+    {
+      "name": "Slipknot",
+      "members": [
+        "Sid Wilson",
+        "Shawn Crahan",
+        "Mick Thomson",
+        "Jim Root",
+        "Craig Jones",
+        "Corey Taylor"
+      ],
+      "date": "4/12/1995",
+      "genres": [
+        "Metal"
+      ],
+      "albums": [],
+      "listeners": 8440154
+    },
+    {
+      "name": "Mötley Crüe",
+      "members": [
+        "Vince Neil",
+        "Nikki Sixx",
+        "Mick Mars"
+      ],
+      "date": "17/1/1981",
+      "genres": [
+        "Metal"
+      ],
+      "albums": [],
+      "listeners": 6520363
+    }
+  ],
+  "artists": [
+    {
+      "name": "Adexe",
+      "groups": [
+        "Adexe Y Nau"
+      ],
+      "genres": [
+        "UrbanoLatino",
+        "Pop"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 10017
+    },
+    {
+      "name": "Nau",
+      "groups": [
+        "Adexe Y Nau"
+      ],
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 1919
+    },
+    {
+      "name": "Daddy Yankee",
+      "groups": [],
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "albums": [
+        "El Cartel: The Big Boss"
+      ],
+      "songs": [
+        "Ella Me Levantó"
+      ],
+      "listeners": 3524166
+    },
+    {
+      "name": "Bejo",
+      "groups": [],
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "albums": [],
+      "songs": [
+        "Onomeatropella"
+      ],
+      "listeners": 40990
+    },
+    {
+      "name": "Lit Killah",
+      "groups": [],
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "albums": [],
+      "songs": [
+        "Soy Uno Más"
+      ],
+      "listeners": 881077
+    },
+    {
+      "name": "Sech",
+      "groups": [],
+      "genres": [
+        "UrbanoLatino"
+      ],
+      "albums": [],
+      "songs": [
+        "Otro Trago"
+      ],
+      "listeners": 2087866
+    },
+    {
+      "name": "Michael Jackson",
+      "groups": [],
+      "genres": [
+        "Pop",
+        "Rock",
+        "Soul"
+      ],
+      "albums": [
+        "Dangerous"
+      ],
+      "songs": [
+        "Black or White",
+        "Speed Demon"
+      ],
+      "listeners": 2347638
+    },
+    {
+      "name": "Scatman John",
+      "groups": [],
+      "genres": [
+        "Pop",
+        "Electronic"
+      ],
+      "albums": [
+        "Scatman's World"
+      ],
+      "songs": [
+        "Scatman"
+      ],
+      "listeners": 128684
+    },
+    {
+      "name": "Gala",
+      "groups": [],
+      "genres": [
+        "Pop",
+        "Electronic"
+      ],
+      "albums": [],
+      "songs": [
+        "Freed From Desire"
+      ],
+      "listeners": 230960
+    },
+    {
+      "name": "Eminem",
+      "groups": [],
+      "genres": [
+        "Rap"
+      ],
+      "albums": [
+        "Curtain Call: The Hits"
+      ],
+      "songs": [
+        "Shake That",
+        "The Monster"
+      ],
+      "listeners": 4409081
+    },
+    {
+      "name": "Nate Dogg",
+      "groups": [],
+      "genres": [
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 215961
+    },
+    {
+      "name": "Doja Cat",
+      "groups": [],
+      "genres": [
+        "Pop",
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [
+        "Kiss Me More"
+      ],
+      "listeners": 4644270
+    },
+    {
+      "name": "SZA",
+      "groups": [],
+      "genres": [
+        "Soul"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 2804380
+    },
+    {
+      "name": "Canserbero",
+      "groups": [],
+      "genres": [
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [
+        "Es Épico"
+      ],
+      "listeners": 239564
+    },
+    {
+      "name": "Coolio",
+      "groups": [],
+      "genres": [
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [
+        "Gangsta Paradise"
+      ],
+      "listeners": 807561
+    },
+    {
+      "name": "Kylian Mash",
+      "groups": [],
+      "genres": [
+        "Electronic"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 1187
+    },
+    {
+      "name": "Melanie Martinez",
+      "groups": [],
+      "genres": [
+        "Pop",
+        "Electronic",
+        "Indie"
+      ],
+      "albums": [],
+      "songs": [
+        "Cry Baby",
+        "Training Wheels"
+      ],
+      "listeners": 1057512
+    },
+    {
+      "name": "Ludwig van Beethoven",
+      "groups": [],
+      "genres": [
+        "Classical"
+      ],
+      "albums": [
+        "Best of Beethoven"
+      ],
+      "songs": [
+        "Moonlight Sonata",
+        "Für Elise",
+        "Symphony No.9"
+      ],
+      "listeners": 523507
+    },
+    {
+      "name": "Antonio Vivaldi",
+      "groups": [],
+      "genres": [
+        "Classical"
+      ],
+      "albums": [],
+      "songs": [
+        "Spring"
+      ],
+      "listeners": 363446
+    },
+    {
+      "name": "Georges Bizet",
+      "groups": [],
+      "genres": [
+        "Classical"
+      ],
+      "albums": [],
+      "songs": [
+        "Habanera"
+      ],
+      "listeners": 141142
+    },
+    {
+      "name": "Marvin Gaye",
+      "groups": [],
+      "genres": [
+        "Pop",
+        "Soul"
+      ],
+      "albums": [],
+      "songs": [
+        "Ain't No Mountain High Enough",
+        "I Heard It Through the Grapevine"
+      ],
+      "listeners": 1059278
+    },
+    {
+      "name": "Tammi Terrell",
+      "groups": [],
+      "genres": [
+        "Soul"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 525392
+    },
+    {
+      "name": "James Brown",
+      "groups": [],
+      "genres": [
+        "Soul"
+      ],
+      "albums": [],
+      "songs": [
+        "I Feel Good"
+      ],
+      "listeners": 337179
+    },
+    {
+      "name": "Pharrell Williams",
+      "groups": [],
+      "genres": [
+        "Pop",
+        "Rock",
+        "Rap",
+        "Soul"
+      ],
+      "albums": [],
+      "songs": [
+        "Happy"
+      ],
+      "listeners": 1777780
+    },
+    {
+      "name": "Adele",
+      "groups": [],
+      "genres": [
+        "Pop",
+        "Soul"
+      ],
+      "albums": [
+        "21"
+      ],
+      "songs": [
+        "Rolling in the Deep"
+      ],
+      "listeners": 4331955
+    },
+    {
+      "name": "Kenny Rogers",
+      "groups": [],
+      "genres": [
+        "Pop",
+        "Rock",
+        "Country"
+      ],
+      "albums": [
+        "The Gambler"
+      ],
+      "songs": [
+        "The Gambler"
+      ],
+      "listeners": 489832
+    },
+    {
+      "name": "John Denver",
+      "groups": [],
+      "genres": [
+        "Pop",
+        "Rock",
+        "Country"
+      ],
+      "albums": [],
+      "songs": [
+        "Take Me Home, Country Roads"
+      ],
+      "listeners": 569083
+    },
+    {
+      "name": "Billy Ray Cyrus",
+      "groups": [],
+      "genres": [
+        "Pop",
+        "Rock",
+        "Country"
+      ],
+      "albums": [],
+      "songs": [
+        "Achy Breaky Heart"
+      ],
+      "listeners": 607464
+    },
+    {
+      "name": "Luke Hemmings",
+      "groups": [
+        "5SOS"
+      ],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 115533
+    },
+    {
+      "name": "Calum Hood",
+      "groups": [
+        "5SOS"
+      ],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "Ashton Irwin",
+      "groups": [
+        "5SOS"
+      ],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 13852
+    },
+    {
+      "name": "Michael Clifford",
+      "groups": [
+        "5SOS"
+      ],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "David Muñoz",
+      "groups": [
+        "Estopa"
+      ],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "José Muñoz",
+      "groups": [
+        "Estopa"
+      ],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "David Summers",
+      "groups": [
+        "Hombres G"
+      ],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 76012
+    },
+    {
+      "name": "Dani Mezquita Hardy",
+      "groups": [
+        "Hombres G"
+      ],
+      "genres": [],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "Rafa Gutiérrez Muñoz",
+      "groups": [
+        "Hombres G"
+      ],
+      "genres": [],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "Javier Molina",
+      "groups": [
+        "Hombres G"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "Ed Service",
+      "groups": [
+        "Shouse"
+      ],
+      "genres": [
+        "Electronic"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "Jack Madin",
+      "groups": [
+        "Shouse"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "Damon Albarn",
+      "groups": [
+        "Gorillaz"
+      ],
+      "genres": [
+        "Rock",
+        "Rap",
+        "Indie"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 33637
+    },
+    {
+      "name": "Jamie Hewlett",
+      "groups": [
+        "Gorillaz"
+      ],
+      "genres": [],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "Remi Kabaka Jr.",
+      "groups": [
+        "Gorillaz"
+      ],
+      "genres": [
+        "Pop",
+        "Electronic"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "Freddie Mercury",
+      "groups": [
+        "Queen"
+      ],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 212791
+    },
+    {
+      "name": "Brian May",
+      "groups": [
+        "Queen"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 27197
+    },
+    {
+      "name": "Roger Taylor",
+      "groups": [
+        "Queen"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 14257
+    },
+    {
+      "name": "John Deacon",
+      "groups": [
+        "Queen"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 108
+    },
+    {
+      "name": "Ozzy Osbourne",
+      "groups": [
+        "Black Sabbath"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 579409
+    },
+    {
+      "name": "Tony Iommi",
+      "groups": [
+        "Black Sabbath"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 3875
+    },
+    {
+      "name": "Geezer Butler",
+      "groups": [
+        "Black Sabbath"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 1907
+    },
+    {
+      "name": "Bill Ward",
+      "groups": [
+        "Black Sabbath"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 76
+    },
+    {
+      "name": "Jimmy Page",
+      "groups": [
+        "Led Zeppelin"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 28941
+    },
+    {
+      "name": "Robert Plant",
+      "groups": [
+        "Led Zeppelin"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 164007
+    },
+    {
+      "name": "John Paul Jones",
+      "groups": [
+        "Led Zeppelin"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 3118
+    },
+    {
+      "name": "John Bonham",
+      "groups": [
+        "Led Zeppelin"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 226
+    },
+    {
+      "name": "Axl Rose",
+      "groups": [
+        "Guns N' Roses"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 102712
+    },
+    {
+      "name": "Slash",
+      "groups": [
+        "Guns N' Roses"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 158026
+    },
+    {
+      "name": "Duff McKagan",
+      "groups": [
+        "Guns N' Roses"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 5832
+    },
+    {
+      "name": "Dizzy Reed",
+      "groups": [
+        "Guns N' Roses"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 25
+    },
+    {
+      "name": "Richard Fortus",
+      "groups": [
+        "Guns N' Roses"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 192
+    },
+    {
+      "name": "Frank Ferrer",
+      "groups": [
+        "Guns N' Roses"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 153
+    },
+    {
+      "name": "Melissa Reese",
+      "groups": [
+        "Guns N' Roses"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 17
+    },
+    {
+      "name": "Will.i.am",
+      "groups": [
+        "Black Eyed Peas"
+      ],
+      "genres": [
+        "Pop",
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 770256
+    },
+    {
+      "name": "Apl.de.ap",
+      "groups": [
+        "Black Eyed Peas"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 53
+    },
+    {
+      "name": "Taboo",
+      "groups": [
+        "Black Eyed Peas"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "J. Rey Soul",
+      "groups": [
+        "Black Eyed Peas"
+      ],
+      "genres": [
+        "UrbanoLatino",
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 189383
+    },
+    {
+      "name": "Damiano David",
+      "groups": [
+        "Maneskin"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 1670
+    },
+    {
+      "name": "Victoria de Angelis",
+      "groups": [
+        "Maneskin"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 19
+    },
+    {
+      "name": "Ethan Torchio",
+      "groups": [
+        "Maneskin"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 45
+    },
+    {
+      "name": "Thomas Raggi",
+      "groups": [
+        "Maneskin"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 2
+    },
+    {
+      "name": "Jesse Rutherford",
+      "groups": [
+        "The Neighbourhood"
+      ],
+      "genres": [
+        "Pop",
+        "Rock",
+        "Rap",
+        "Indie"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 128244
+    },
+    {
+      "name": "Zach Abels",
+      "groups": [
+        "The Neighbourhood"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 194
+    },
+    {
+      "name": "Jeremy Freedman",
+      "groups": [
+        "The Neighbourhood"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 47
+    },
+    {
+      "name": "Mikey Margott",
+      "groups": [
+        "The Neighbourhood"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 6
+    },
+    {
+      "name": "Brandon Fried",
+      "groups": [
+        "Creedence Clearwater Revival"
+      ],
+      "genres": [
+        "Rock",
+        "Indie"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 29
+    },
+    {
+      "name": "John Fogerty",
+      "groups": [
+        "Creedence Clearwater Revival"
+      ],
+      "genres": [
+        "Rock",
+        "Country"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 125074
+    },
+    {
+      "name": "Tom Fogerty",
+      "groups": [
+        "Creedence Clearwater Revival"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 129
+    },
+    {
+      "name": "Stu Cook",
+      "groups": [
+        "Creedence Clearwater Revival"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 64
+    },
+    {
+      "name": "Doug Clifford",
+      "groups": [
+        "Creedence Clearwater Revival"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 10
+    },
+    {
+      "name": "Steve Harris",
+      "groups": [
+        "Iron Maiden"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 144
+    },
+    {
+      "name": "Bruce Dickinson",
+      "groups": [
+        "Iron Maiden"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 55584
+    },
+    {
+      "name": "Dave Murray",
+      "groups": [
+        "Iron Maiden"
+      ],
+      "genres": [
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 1598
+    },
+    {
+      "name": "Adrian Smith",
+      "groups": [
+        "Iron Maiden"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 4061
+    },
+    {
+      "name": "Janick Gers",
+      "groups": [
+        "Iron Maiden"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 1
+    },
+    {
+      "name": "Nicko McBrain",
+      "groups": [
+        "Iron Maiden"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 1333
+    },
+    {
+      "name": "Lars Ulrich",
+      "groups": [
+        "Metallica"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 304
+    },
+    {
+      "name": "James Hetfield",
+      "groups": [
+        "Metallica"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 451
+    },
+    {
+      "name": "Kirk Hammett",
+      "groups": [
+        "Metallica"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 1113
+    },
+    {
+      "name": "Robert Trujillo",
+      "groups": [
+        "Metallica"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 285
+    },
+    {
+      "name": "Serj Tankian",
+      "groups": [
+        "System Of A Down"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 85742
+    },
+    {
+      "name": "Daron Malakian",
+      "groups": [
+        "System Of A Down"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 8
+    },
+    {
+      "name": "Shavo Odadjian",
+      "groups": [
+        "System Of A Down"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 3
+    },
+    {
+      "name": "John Dolmayan",
+      "groups": [
+        "System Of A Down"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 3985
+    },
+    {
+      "name": "Sid Wilson",
+      "groups": [
+        "Slipknot"
+      ],
+      "genres": [
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 59
+    },
+    {
+      "name": "Shawn Crahan",
+      "groups": [
+        "Slipknot"
+      ],
+      "genres": [
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 391
+    },
+    {
+      "name": "Mick Thomson",
+      "groups": [
+        "Slipknot"
+      ],
+      "genres": [
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 5
+    },
+    {
+      "name": "Jim Root",
+      "groups": [
+        "Slipknot"
+      ],
+      "genres": [
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 0
+    },
+    {
+      "name": "Craig Jones",
+      "groups": [
+        "Slipknot"
+      ],
+      "genres": [
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 116
+    },
+    {
+      "name": "Corey Taylor",
+      "groups": [
+        "Slipknot"
+      ],
+      "genres": [
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 95266
+    },
+    {
+      "name": "Vince Neil",
+      "groups": [
+        "Mötley Crüe"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 11399
+    },
+    {
+      "name": "Nikki Sixx",
+      "groups": [
+        "Mötley Crüe"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 8
+    },
+    {
+      "name": "Mick Mars",
+      "groups": [
+        "Mötley Crüe"
+      ],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 121
+    },
+    {
+      "name": "Tommy Lee",
+      "groups": [],
+      "genres": [
+        "Rock",
+        "Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "listeners": 31514
+    }
+  ],
+  "genres": [
+    {
+      "name": "UrbanoLatino",
+      "authors": [
+        "Adexe",
+        "Nau",
+        "Daddy Yankee",
+        "Bejo",
+        "Lit Killah",
+        "Sech",
+        "J. Rey Soul",
+        "Adexe Y Nau"
+      ],
+      "albums": [
+        "El Cartel: The Big Boss"
+      ],
+      "songs": [
+        "Solo Amigos",
+        "Ella Me Levantó",
+        "Onomeatropella",
+        "Soy Uno Más",
+        "Otro Trago"
+      ]
+    },
+    {
+      "name": "Pop",
+      "authors": [
+        "Adexe",
+        "Michael Jackson",
+        "Scatman John",
+        "Gala",
+        "Doja Cat",
+        "Melanie Martinez",
+        "Marvin Gaye",
+        "Pharrell Williams",
+        "Adele",
+        "Kenny Rogers",
+        "John Denver",
+        "Billy Ray Cyrus",
+        "Luke Hemmings",
+        "Calum Hood",
+        "Ashton Irwin",
+        "Michael Clifford",
+        "David Muñoz",
+        "José Muñoz",
+        "David Summers",
+        "Remi Kabaka Jr.",
+        "Freddie Mercury",
+        "Will.i.am",
+        "Jesse Rutherford",
+        "5SOS",
+        "Estopa",
+        "Hombres G",
+        "Black Eyed Peas"
+      ],
+      "albums": [
+        "Dangerous",
+        "Scatman's World",
+        "Plastic Beach",
+        "21"
+      ],
+      "songs": [
+        "Black or White",
+        "She Looks So Perfect",
+        "Speed Demon",
+        "Como Camarón",
+        "Devuélveme a Mi Chica",
+        "Under Pressure",
+        "The Monster"
+      ]
+    },
+    {
+      "name": "Electronic",
+      "authors": [
+        "Scatman John",
+        "Gala",
+        "Kylian Mash",
+        "Melanie Martinez",
+        "Ed Service",
+        "Remi Kabaka Jr.",
+        "Shouse",
+        "Gorillaz"
+      ],
+      "albums": [
+        "Scatman's World",
+        "Plastic Beach"
+      ],
+      "songs": [
+        "Scatman",
+        "Speed Demon",
+        "Freed From Desire",
+        "Love Tonight"
+      ]
+    },
+    {
+      "name": "Rock",
+      "authors": [
+        "Michael Jackson",
+        "Pharrell Williams",
+        "Kenny Rogers",
+        "John Denver",
+        "Billy Ray Cyrus",
+        "Luke Hemmings",
+        "Calum Hood",
+        "Ashton Irwin",
+        "Michael Clifford",
+        "David Muñoz",
+        "José Muñoz",
+        "David Summers",
+        "Javier Molina",
+        "Damon Albarn",
+        "Freddie Mercury",
+        "Brian May",
+        "Roger Taylor",
+        "John Deacon",
+        "Ozzy Osbourne",
+        "Tony Iommi",
+        "Geezer Butler",
+        "Bill Ward",
+        "Jimmy Page",
+        "Robert Plant",
+        "John Paul Jones",
+        "John Bonham",
+        "Axl Rose",
+        "Slash",
+        "Duff McKagan",
+        "Dizzy Reed",
+        "Richard Fortus",
+        "Frank Ferrer",
+        "Melissa Reese",
+        "Damiano David",
+        "Victoria de Angelis",
+        "Ethan Torchio",
+        "Thomas Raggi",
+        "Jesse Rutherford",
+        "Jeremy Freedman",
+        "Mikey Margott",
+        "Brandon Fried",
+        "John Fogerty",
+        "Tom Fogerty",
+        "Stu Cook",
+        "Doug Clifford",
+        "Steve Harris",
+        "Bruce Dickinson",
+        "Adrian Smith",
+        "Janick Gers",
+        "Nicko McBrain",
+        "Lars Ulrich",
+        "James Hetfield",
+        "Kirk Hammett",
+        "Robert Trujillo",
+        "Serj Tankian",
+        "Daron Malakian",
+        "Shavo Odadjian",
+        "John Dolmayan",
+        "Vince Neil",
+        "Nikki Sixx",
+        "Mick Mars",
+        "Tommy Lee",
+        "5SOS",
+        "Estopa",
+        "Queen",
+        "Black Sabbath",
+        "Led Zeppelin",
+        "Guns N' Roses",
+        "Maneskin",
+        "The Neighbourhood",
+        "Creedence Clearwater Revival"
+      ],
+      "albums": [
+        "Dangerous",
+        "Jazz"
+      ],
+      "songs": [
+        "Bicycle Race",
+        "Como Camarón",
+        "Paranoid",
+        "Stairway To Heaven",
+        "Sweet Child o' Mine",
+        "Under Pressure",
+        "Stone Cold Crazy"
+      ]
+    },
+    {
+      "name": "Rap",
+      "authors": [
+        "Eminem",
+        "Nate Dogg",
+        "Doja Cat",
+        "Canserbero",
+        "Coolio",
+        "Pharrell Williams",
+        "Damon Albarn",
+        "Will.i.am",
+        "Apl.de.ap",
+        "Taboo",
+        "J. Rey Soul",
+        "Jesse Rutherford",
+        "Gorillaz",
+        "Black Eyed Peas",
+        "The Neighbourhood"
+      ],
+      "albums": [
+        "Curtain Call: The Hits"
+      ],
+      "songs": [
+        "Shake That",
+        "Kiss Me More",
+        "Es Épico",
+        "Gangsta Paradise",
+        "I Gotta Feeling",
+        "The Monster"
+      ]
+    },
+    {
+      "name": "Indie",
+      "authors": [
+        "Melanie Martinez",
+        "Jack Madin",
+        "Damon Albarn",
+        "Jesse Rutherford",
+        "Zach Abels",
+        "Brandon Fried",
+        "Gorillaz",
+        "The Neighbourhood"
+      ],
+      "albums": [
+        "Plastic Beach"
+      ],
+      "songs": [
+        "Are You Ready?",
+        "On Melancholy Hill",
+        "Cry Baby",
+        "Daddy Issues",
+        "Training Wheels"
+      ]
+    },
+    {
+      "name": "Classical",
+      "authors": [
+        "Ludwig van Beethoven",
+        "Antonio Vivaldi",
+        "Georges Bizet"
+      ],
+      "albums": [
+        "Best of Beethoven"
+      ],
+      "songs": [
+        "Moonlight Sonata",
+        "Für Elise",
+        "Spring",
+        "Symphony No.9",
+        "Habanera"
+      ]
+    },
+    {
+      "name": "Soul",
+      "authors": [
+        "Michael Jackson",
+        "SZA",
+        "Marvin Gaye",
+        "Tammi Terrell",
+        "James Brown",
+        "Pharrell Williams",
+        "Adele"
+      ],
+      "albums": [
+        "21"
+      ],
+      "songs": [
+        "Ain't No Mountain High Enough",
+        "I Feel Good",
+        "Happy",
+        "Rolling in the Deep",
+        "I Heard It Through the Grapevine"
+      ]
+    },
+    {
+      "name": "Country",
+      "authors": [
+        "Kenny Rogers",
+        "John Denver",
+        "Billy Ray Cyrus",
+        "John Fogerty",
+        "Creedence Clearwater Revival"
+      ],
+      "albums": [
+        "The Gambler"
+      ],
+      "songs": [
+        "The Gambler",
+        "Have You Ever Seen The Rain",
+        "Fortunate Son",
+        "Achy Breaky Heart",
+        "Take Me Home, Country Roads"
+      ]
+    },
+    {
+      "name": "Metal",
+      "authors": [
+        "Ozzy Osbourne",
+        "Tony Iommi",
+        "Geezer Butler",
+        "Bill Ward",
+        "Jimmy Page",
+        "Robert Plant",
+        "Axl Rose",
+        "Slash",
+        "Duff McKagan",
+        "Dizzy Reed",
+        "Melissa Reese",
+        "Steve Harris",
+        "Bruce Dickinson",
+        "Dave Murray",
+        "Adrian Smith",
+        "Janick Gers",
+        "Nicko McBrain",
+        "Lars Ulrich",
+        "James Hetfield",
+        "Kirk Hammett",
+        "Robert Trujillo",
+        "Serj Tankian",
+        "Daron Malakian",
+        "Shavo Odadjian",
+        "John Dolmayan",
+        "Sid Wilson",
+        "Shawn Crahan",
+        "Mick Thomson",
+        "Jim Root",
+        "Craig Jones",
+        "Corey Taylor",
+        "Vince Neil",
+        "Nikki Sixx",
+        "Mick Mars",
+        "Tommy Lee",
+        "Iron Maiden",
+        "Metallica",
+        "System Of A Down",
+        "Slipknot",
+        "Mötley Crüe"
+      ],
+      "albums": [
+        "Piece of Mind"
+      ],
+      "songs": [
+        "The Trooper",
+        "Nothing Else Matters",
+        "Chop Suey!",
+        "Duality",
+        "Live Wire",
+        "Stone Cold Crazy"
+      ]
+    }
+  ],
+  "playlists": [
+    {
+      "name": "IntenseMusic",
+      "songs": [
+        "Fortunate Son",
+        "The Trooper",
+        "Chop Suey!",
+        "Duality"
+      ],
+      "duration": 812,
+      "genres": [
+        "Country",
+        "Metal"
+      ]
+    },
+    {
+      "name": "Chilling",
+      "songs": [
+        "On Melancholy Hill",
+        "Symphony No.9",
+        "Ain't No Mountain High Enough",
+        "Nothing Else Matters"
+      ],
+      "duration": 4699,
+      "genres": [
+        "Indie",
+        "Classical",
+        "Soul",
+        "Metal"
+      ]
+    },
+    {
+      "name": "Driving",
+      "songs": [
+        "Speed Demon",
+        "Shake That",
+        "Como Camarón",
+        "Devuélveme a Mi Chica",
+        "Sweet Child o' Mine",
+        "Gangsta Paradise",
+        "Under Pressure"
+      ],
+      "duration": 1767,
+      "genres": [
+        "Pop",
+        "Electronic",
+        "Rap",
+        "Rock"
+      ]
+    }
+  ]
+}

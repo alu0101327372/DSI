@@ -1,0 +1,30 @@
+{
+  "entryPoints": [
+    "./src/ejercicio-1/Combat.ts",
+    "./src/ejercicio-1/DragonBall.ts",
+    "./src/ejercicio-1/DC.ts",
+    "./src/ejercicio-1/Marvel.ts",
+    "./src/ejercicio-1/Fighter.ts",
+    "./src/ejercicio-1/Fighterex.ts",
+    "./src/ejercicio-1/Pokemon.ts",
+    "./src/ejercicio-1/StarWars.ts",
+    "./src/ejercicio-2/Streamable.ts",
+    "./src/ejercicio-2/BasicStreamableCollection.ts",
+    "./src/ejercicio-2/Pelicula.ts",
+    "./src/ejercicio-2/Serie.ts",
+    "./src/ejercicio-2/Documental.ts",
+    "./src/ejercicio-2/PeliculaCollection.ts",
+    "./src/ejercicio-2/SeriesCollection.ts",
+    "./src/ejercicio-2/DocumentalCollection.ts",
+    "./src/ejercicio-3/Cifrado.ts",
+    "./src/ejercicio-3/Encode.ts",
+    "./src/ejercicio-3/Decode.ts",
+    "./src/ejercicio-3/Run.ts",
+    "./src/ejercicio-mod/Collectable.ts",
+    "./src/ejercicio-mod/Searchable.ts",
+    "./src/ejercicio-mod/SearchableCollection.ts",
+    "./src/ejercicio-mod/NumericSearchableCollection.ts",
+    "./src/ejercicio-mod/StringSearchableCollection.ts"
+  ],
+  "out": "./docs"
+}

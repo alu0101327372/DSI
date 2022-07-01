@@ -1,0 +1,239 @@
+<!DOCTYPE html><html class="default"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372</title><meta name="description" content="Documentation for ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script async src="assets/search.js" id="search-script"></script></head><body><script>document.body.classList.add(localStorage.getItem("tsd-theme") || "os")</script><header><div class="tsd-page-toolbar"><div class="container"><div class="table-wrap"><div class="table-cell" id="tsd-search" data-base="."><div class="field"><label for="tsd-search-field" class="tsd-widget search no-caption">Search</label><input type="text" id="tsd-search-field"/></div><ul class="results"><li class="state loading">Preparing search index...</li><li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372</a></div><div class="table-cell" id="tsd-widgets"><div id="tsd-filter"><a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a><div class="tsd-filter-group"><div class="tsd-select" id="tsd-filter-visibility"><span class="tsd-select-label">All</span><ul class="tsd-select-list"><li data-value="public">Public</li><li data-value="protected">Public/Protected</li><li data-value="private" class="selected">All</li></ul></div> <input type="checkbox" id="tsd-filter-inherited" checked/><label class="tsd-widget" for="tsd-filter-inherited">Inherited</label><input type="checkbox" id="tsd-filter-externals" checked/><label class="tsd-widget" for="tsd-filter-externals">Externals</label></div></div><a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a></div></div></div></div><div class="tsd-page-title"><div class="container"><h1> ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372</h1></div></div></header><div class="container container-main"><div class="row"><div class="col-8 col-content"><div class="tsd-panel tsd-typography">
+<a href="#tipos-de-datos-estáticos-y-funciones" id="tipos-de-datos-estáticos-y-funciones" style="color: inherit; text-decoration: none;">
+  <h1>Tipos de datos estáticos y funciones</h1>
+</a>
+<p>Los objetivos en esta práctica tendremos que resolver una serie de ejercicios de programación que nos permitirán conocer más en profundidad, tanto los tipos de datos estáticos en TypeScript, como las funciones, empleando también expresiones regulares. Además de configurar la documentación en typedoc.</p>
+
+<a href="#estructura-del-proyecto" id="estructura-del-proyecto" style="color: inherit; text-decoration: none;">
+  <h2>Estructura del proyecto</h2>
+</a>
+<pre><code><span class="hl-0">.</span><br/><span class="hl-0">├── .</span><span class="hl-1">eslintrc</span><span class="hl-0">.</span><span class="hl-1">json</span><br/><span class="hl-0">├── .</span><span class="hl-1">git</span><br/><span class="hl-0">├── .</span><span class="hl-1">gitignore</span><br/><span class="hl-0">├── .</span><span class="hl-1">mocharc</span><span class="hl-0">.</span><span class="hl-1">json</span><br/><span class="hl-0">├── </span><span class="hl-1">_config</span><span class="hl-0">.</span><span class="hl-1">yml</span><br/><span class="hl-0">├── </span><span class="hl-1">dist</span><br/><span class="hl-0">├── </span><span class="hl-1">docs</span><br/><span class="hl-0">├── </span><span class="hl-1">index</span><span class="hl-0">.</span><span class="hl-1">md</span><br/><span class="hl-0">├── </span><span class="hl-1">node_modules</span><br/><span class="hl-0">├── </span><span class="hl-2">package</span><span class="hl-0">-</span><span class="hl-1">lock</span><span class="hl-0">.</span><span class="hl-1">json</span><br/><span class="hl-0">├── </span><span class="hl-1">package</span><span class="hl-0">.</span><span class="hl-1">json</span><br/><span class="hl-0">├── </span><span class="hl-1">src</span><br/><span class="hl-0">├── </span><span class="hl-1">test</span><br/><span class="hl-0">├── </span><span class="hl-1">tsconfig</span><span class="hl-0">.</span><span class="hl-1">json</span><br/><span class="hl-0">└── </span><span class="hl-1">typedoc</span><span class="hl-0">.</span><span class="hl-1">json</span>
+</code></pre>
+
+<a href="#ejercicios" id="ejercicios" style="color: inherit; text-decoration: none;">
+  <h2>Ejercicios</h2>
+</a>
+
+<a href="#ejercicio-1" id="ejercicio-1" style="color: inherit; text-decoration: none;">
+  <h3>Ejercicio 1</h3>
+</a>
+<p>Se define una función <a href="https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372/blob/master/src/ejercicio-1.ts">isLeapYear</a> que devuelva si un año concreto es bisiesto o no. La función deberá recibir como parámetro el año a evaluar y devolverá verdadero o falso según corresponda.</p>
+
+<a href="#detalles-de-la-implementación" id="detalles-de-la-implementación" style="color: inherit; text-decoration: none;">
+  <h4>Detalles de la implementación</h4>
+</a>
+<p>Para comprobar si un año es bisiesto, desde un enfoque algorítmico, se consideran las proposiciones o enunciados lógicos siguientes:</p>
+<ul>
+<li>p: Es divisible entre 4</li>
+<li>q: Es divisible entre 100 (¬q entonces significa no divisible entre 100)</li>
+<li>r: Es divisible entre 400</li>
+</ul>
+<p>Entonces la formula lógica <code>p ^ (¬q v r)</code> para establecer si un año dado es bisiesto: es bisiesto si es divisible entre cuatro y (no es divisible entre 100 o es divisible entre 400).</p>
+<p>El método comprueba que esto se cumpla haciendo uso de una sentencia condicional if. En otro caso devuelve false.</p>
+<pre><code><span class="hl-2">if</span><span class="hl-0"> ((</span><span class="hl-1">year</span><span class="hl-0"> % </span><span class="hl-3">4</span><span class="hl-0"> === </span><span class="hl-3">0</span><span class="hl-0">) &amp;&amp; ((</span><span class="hl-1">year</span><span class="hl-0"> % </span><span class="hl-3">100</span><span class="hl-0"> !== </span><span class="hl-3">0</span><span class="hl-0">) || (</span><span class="hl-1">year</span><span class="hl-0"> % </span><span class="hl-3">400</span><span class="hl-0"> === </span><span class="hl-3">0</span><span class="hl-0">))) {</span><br/><span class="hl-0">  </span><span class="hl-2">return</span><span class="hl-0"> </span><span class="hl-4">true</span><span class="hl-0">;  </span><br/><span class="hl-0">}</span>
+</code></pre>
+
+<a href="#ejercicio-2" id="ejercicio-2" style="color: inherit; text-decoration: none;">
+  <h3>Ejercicio 2</h3>
+</a>
+<p>Se definen dos funciones la primera, recibirá un entero positivo y devolverá como resultado una cadena de texto con la representación factorial del número recibido. Por el contrario, la función factorialToDecimal realizará la operación opuesta. Esto es, recibirá como paŕametro una cadena de texto en notación factorial y devolverá el número entero que representa.</p>
+
+<a href="#ejercicio-3" id="ejercicio-3" style="color: inherit; text-decoration: none;">
+  <h3>Ejercicio 3</h3>
+</a>
+<p>Se definen dos funciones <a href="https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372/blob/master/src/ejercicio-3.ts">fromSnakeToCamelCase y fromCamelToSnakeCase</a> que recibirán como parámetro una cadena de texto y devolverán otra cadena con el nuevo formato. La primera función recibirá una cadena de texto en formato Snake Case y la convertirá a formato Camel Case. La segunda función realizará la operación contraria.</p>
+
+<a href="#fromsnaketocamelcase" id="fromsnaketocamelcase" style="color: inherit; text-decoration: none;">
+  <h4>fromSnakeToCamelCase()</h4>
+</a>
+<p>Separamos la cadena y la guardamos en un vector de strings usando el método <code>split()</code>. A continuación recorremos cada elementos de ese vector. Y hacemos lo siguiente:</p>
+<ol>
+<li>En el primer elemento guardamos lo que haya en el vector, en el resultado.</li>
+<li>A partir del segundo elemento, necesitamos pasar a UpperCase el primer carácter. Para ello, utilizamos la función <code>charAt()</code> para elegir el carácter y <code>toUppercase()</code> para convertirlo en una mayúscula.</li>
+<li>Devolvemos el resultado uniendo el vector con el método <code>join()</code>.</li>
+</ol>
+<p>El código es el siguiente:</p>
+<pre><code><span class="hl-2">for</span><span class="hl-0"> (</span><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">element</span><span class="hl-0"> = </span><span class="hl-3">0</span><span class="hl-0">; </span><span class="hl-1">element</span><span class="hl-0"> &lt; </span><span class="hl-1">str_vector</span><span class="hl-0">.</span><span class="hl-1">length</span><span class="hl-0">; </span><span class="hl-1">element</span><span class="hl-0">++) {</span><br/><span class="hl-0">  </span><span class="hl-2">if</span><span class="hl-0"> (</span><span class="hl-1">element</span><span class="hl-0"> === </span><span class="hl-3">0</span><span class="hl-0">) {</span><br/><span class="hl-0">    </span><span class="hl-1">result</span><span class="hl-0">.</span><span class="hl-5">push</span><span class="hl-0">(</span><span class="hl-1">str_vector</span><span class="hl-0">[</span><span class="hl-1">element</span><span class="hl-0">]);</span><br/><span class="hl-0">  } </span><span class="hl-2">else</span><span class="hl-0"> {</span><br/><span class="hl-0">    </span><span class="hl-1">result</span><span class="hl-0">.</span><span class="hl-5">push</span><span class="hl-0">(</span><span class="hl-1">str_vector</span><span class="hl-0">[</span><span class="hl-1">element</span><span class="hl-0">].</span><span class="hl-5">charAt</span><span class="hl-0">(</span><span class="hl-3">0</span><span class="hl-0">).</span><span class="hl-5">toUpperCase</span><span class="hl-0">() + </span><span class="hl-1">str_vector</span><span class="hl-0">[</span><span class="hl-1">element</span><span class="hl-0">].</span><span class="hl-5">slice</span><span class="hl-0">(</span><span class="hl-3">1</span><span class="hl-0">));</span><br/><span class="hl-0">  }</span><br/><span class="hl-0">}</span>
+</code></pre>
+<br>
+
+
+<a href="#fromcameltosnakecase" id="fromcameltosnakecase" style="color: inherit; text-decoration: none;">
+  <h4>fromCamelToSnakeCase()</h4>
+</a>
+<p>En esta función definimos una cadena que busca un valor o una expresión regular. Para ello utilizamos el método <code>replace()</code> al que le pasaremos como parámetro la expresion regular <code>/([A-Z])/g</code> que cogera las letra en mayúscula de cada palabra en la cadena. Y guarda el resultado en la variable <strong>$1</strong>. Finalmente, cambiamos los espacios por guiones bajos y lo cambiamos todo a minúscula usando el método <code>toLowerCase()</code>.</p>
+<p>El código es el siguiente:</p>
+<pre><code><span class="hl-0">  </span><span class="hl-4">var</span><span class="hl-0"> </span><span class="hl-1">result</span><span class="hl-0">: </span><span class="hl-6">string</span><span class="hl-0"> = </span><span class="hl-1">str</span><span class="hl-0">.</span><span class="hl-5">replace</span><span class="hl-0">(</span><span class="hl-7">/</span><span class="hl-8">([</span><span class="hl-7">A-Z</span><span class="hl-8">])</span><span class="hl-7">/</span><span class="hl-4">g</span><span class="hl-0">, </span><span class="hl-9">&quot; $1&quot;</span><span class="hl-0"> );</span><br/><span class="hl-0">  </span><span class="hl-2">return</span><span class="hl-0"> </span><span class="hl-1">result</span><span class="hl-0">.</span><span class="hl-5">split</span><span class="hl-0">(</span><span class="hl-9">&#39; &#39;</span><span class="hl-0">).</span><span class="hl-5">join</span><span class="hl-0">(</span><span class="hl-9">&#39;_&#39;</span><span class="hl-0">).</span><span class="hl-5">toLowerCase</span><span class="hl-0">();</span>
+</code></pre>
+
+<a href="#ejercicio-4" id="ejercicio-4" style="color: inherit; text-decoration: none;">
+  <h3>Ejercicio 4</h3>
+</a>
+<p>Se define una función <a href="https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372/blob/master/src/ejercicio-4.ts">isValidISBN</a> que compruebe la validez de un código ISBN-10. La función recibirá como parámetro una cadena de caracteres compuesta por un posible código ISBN-10 separado o no por guiones. Como resultado, la función devolverá verdadero o falso según corresponda con la validez del código ISBN-10.</p>
+
+<a href="#detalles-de-la-implementación-1" id="detalles-de-la-implementación-1" style="color: inherit; text-decoration: none;">
+  <h4>Detalles de la implementación</h4>
+</a>
+<p>La primera línea de código nos sirve para quitar los guiones del código, utilizando para ello una expresión regular:</p>
+<pre><code><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">str</span><span class="hl-0"> = </span><span class="hl-1">isbn</span><span class="hl-0">.</span><span class="hl-5">replace</span><span class="hl-0">(</span><span class="hl-7">/</span><span class="hl-8">[^</span><span class="hl-7">0-9X</span><span class="hl-8">]</span><span class="hl-7">/</span><span class="hl-4">gi</span><span class="hl-0">, </span><span class="hl-9">&#39;&#39;</span><span class="hl-0">);</span>
+</code></pre>
+<p>A continuación comprobaremos si el código cumple con el primer requisito, es decir, ser de tamaño 10:</p>
+<pre><code><span class="hl-2">if</span><span class="hl-0"> (</span><span class="hl-1">str</span><span class="hl-0">.</span><span class="hl-1">length</span><span class="hl-0"> !== </span><span class="hl-3">10</span><span class="hl-0">) {</span><br/><span class="hl-0">  </span><span class="hl-2">return</span><span class="hl-0"> </span><span class="hl-1">result</span><span class="hl-0">;</span><br/><span class="hl-0">}</span>
+</code></pre>
+<p>El siguiente paso es recorrer el código cambiando los valores de strings a number en base 10, para ello utilizamos el método <code>parseInt()</code>. Los primeros 9 dígitos del mismo, pueden tomar cualquier valor entre 0 y 9, pero los últimos dígitos, a veces, pueden tomar un valor igual a 10; esto se hace escribiéndolo como &#39;X&#39;. Por ello para verificar un ISBN, se calcula 10 veces el primer dígito, más 9 veces el segundo dígito, más 8 veces el tercer dígito y así sucesivamente hasta sumar 1 vez el último dígito. Si el número final no deja resto cuando se divide por 11, el código es un ISBN válido. Esto es lo que se hace en la sentencia else:</p>
+<pre><code><span class="hl-2">else</span><span class="hl-0"> {</span><br/><span class="hl-0">  </span><span class="hl-2">for</span><span class="hl-0"> (</span><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">i</span><span class="hl-0"> = </span><span class="hl-3">0</span><span class="hl-0">; </span><span class="hl-1">i</span><span class="hl-0"> &lt; </span><span class="hl-3">9</span><span class="hl-0">; </span><span class="hl-1">i</span><span class="hl-0">++) {</span><br/><span class="hl-0">    </span><span class="hl-1">digit</span><span class="hl-0"> = </span><span class="hl-5">parseInt</span><span class="hl-0">(</span><span class="hl-1">str</span><span class="hl-0">[</span><span class="hl-1">i</span><span class="hl-0">], </span><span class="hl-3">10</span><span class="hl-0">);</span><br/><span class="hl-0">    </span><span class="hl-1">sum</span><span class="hl-0"> += </span><span class="hl-1">weight</span><span class="hl-0"> * </span><span class="hl-1">digit</span><span class="hl-0">;</span><br/><span class="hl-0">    </span><span class="hl-1">weight</span><span class="hl-0">--;</span><br/><span class="hl-0">  }</span><br/><span class="hl-0">  </span><span class="hl-1">check</span><span class="hl-0"> = </span><span class="hl-3">11</span><span class="hl-0"> - </span><span class="hl-1">sum</span><span class="hl-0"> % </span><span class="hl-3">11</span><span class="hl-0">;</span><br/><span class="hl-0">  </span><span class="hl-2">if</span><span class="hl-0"> (</span><span class="hl-1">check</span><span class="hl-0"> === </span><span class="hl-3">10</span><span class="hl-0">) {</span><br/><span class="hl-0">    </span><span class="hl-1">checkStr</span><span class="hl-0"> = </span><span class="hl-9">&#39;X&#39;</span><span class="hl-0">;</span><br/><span class="hl-0">  } </span><span class="hl-2">else</span><span class="hl-0"> {</span><br/><span class="hl-0">    </span><span class="hl-1">checkStr</span><span class="hl-0"> = </span><span class="hl-1">check</span><span class="hl-0">.</span><span class="hl-5">toString</span><span class="hl-0">();</span><br/><span class="hl-0">}</span>
+</code></pre>
+
+<a href="#ejercicio-5" id="ejercicio-5" style="color: inherit; text-decoration: none;">
+  <h3>Ejercicio 5</h3>
+</a>
+<p>Se define una función <a href="https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372/blob/master/src/ejercicio-5.ts">sortDecreasing</a> que recibe un entero no negativo como argumento y devuelva otro entero construido a partir de los dígitos ordenados de manera descendente.</p>
+
+<a href="#detalles-de-la-implementación-2" id="detalles-de-la-implementación-2" style="color: inherit; text-decoration: none;">
+  <h4>Detalles de la implementación</h4>
+</a>
+<p>Se guarda el número en un array de tipo number, para ello debemos separar cada carácter con el método <code>split()</code> y luego creamos un nuevo array con los resultados de la llamada a la función <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> a cada uno de sus elementos. El código es el siguiente:</p>
+<pre><code><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">numArray</span><span class="hl-0">: </span><span class="hl-6">number</span><span class="hl-0">[] = </span><span class="hl-6">String</span><span class="hl-0">(</span><span class="hl-1">num</span><span class="hl-0">).</span><span class="hl-5">split</span><span class="hl-0">(</span><span class="hl-9">&quot;&quot;</span><span class="hl-0">).</span><span class="hl-5">map</span><span class="hl-0">(</span><span class="hl-6">Number</span><span class="hl-0">);</span>
+</code></pre>
+<p>Finalmente, ordenamos los valores del array y los devolvemos ordenados formando un solo número utilizando el método <code>join()</code>.</p>
+
+<a href="#ejercicio-6" id="ejercicio-6" style="color: inherit; text-decoration: none;">
+  <h3>Ejercicio 6</h3>
+</a>
+<p>Se define una función <a href="https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372/blob/master/src/ejercicio-6.ts">ipsInRange</a> que reciba como parámetros dos cadenas y devuelva un valor numérico que represente el número de IPs disponibles en el rango correspondiente.</p>
+
+<a href="#detalles-de-la-implementación-3" id="detalles-de-la-implementación-3" style="color: inherit; text-decoration: none;">
+  <h4>Detalles de la implementación</h4>
+</a>
+<p>Cada IP se guarda en un array de string donde cada elemento es un número de la IP, lo hacemos de esta forma:</p>
+<pre><code><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">ip1Array</span><span class="hl-0">: </span><span class="hl-6">string</span><span class="hl-0">[] = </span><span class="hl-1">ip1</span><span class="hl-0">.</span><span class="hl-5">split</span><span class="hl-0">(</span><span class="hl-9">&#39;.&#39;</span><span class="hl-0">);</span><br/><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">ip2Array</span><span class="hl-0">: </span><span class="hl-6">string</span><span class="hl-0">[] = </span><span class="hl-1">ip2</span><span class="hl-0">.</span><span class="hl-5">split</span><span class="hl-0">(</span><span class="hl-9">&#39;.&#39;</span><span class="hl-0">);</span>
+</code></pre>
+<p>A continuación recorremos cada uno de esos arrays y guardamos en el array de resultados cada elemento,  usando el método <code>push()</code>. Esos elementos los convertiremos antes a enteros usando la función <code>parseInt()</code> y los volveremos a convertir en strings utilizando la base decimal usando <code>toString(2)</code>, además usaremos sobre estas cadenas el método <code>padStart()</code> que rellena la cadena actual con <strong>0&#39;s</strong> de modo que la cadena resultante alcance una longitud de 8 carácteres. El código sería el siguiente:</p>
+<pre><code><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">result1</span><span class="hl-0">: </span><span class="hl-6">string</span><span class="hl-0">[] = [];</span><br/><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">result2</span><span class="hl-0">: </span><span class="hl-6">string</span><span class="hl-0">[] = [];</span><br/><span class="hl-1">ip1Array</span><span class="hl-0">.</span><span class="hl-5">forEach</span><span class="hl-0">(</span><span class="hl-1">element</span><span class="hl-0"> </span><span class="hl-4">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">  </span><span class="hl-1">result1</span><span class="hl-0">.</span><span class="hl-5">push</span><span class="hl-0">(</span><span class="hl-5">parseInt</span><span class="hl-0">(</span><span class="hl-1">element</span><span class="hl-0">).</span><span class="hl-5">toString</span><span class="hl-0">(</span><span class="hl-3">2</span><span class="hl-0">).</span><span class="hl-5">padStart</span><span class="hl-0">(</span><span class="hl-3">8</span><span class="hl-0">, </span><span class="hl-9">&#39;0&#39;</span><span class="hl-0">));</span><br/><span class="hl-0">});</span><br/><br/><span class="hl-1">ip2Array</span><span class="hl-0">.</span><span class="hl-5">forEach</span><span class="hl-0">(</span><span class="hl-1">element</span><span class="hl-0"> </span><span class="hl-4">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">  </span><span class="hl-1">result2</span><span class="hl-0">.</span><span class="hl-5">push</span><span class="hl-0">(</span><span class="hl-5">parseInt</span><span class="hl-0">(</span><span class="hl-1">element</span><span class="hl-0">).</span><span class="hl-5">toString</span><span class="hl-0">(</span><span class="hl-3">2</span><span class="hl-0">).</span><span class="hl-5">padStart</span><span class="hl-0">(</span><span class="hl-3">8</span><span class="hl-0">, </span><span class="hl-9">&#39;0&#39;</span><span class="hl-0">));</span><br/><span class="hl-0">});</span>
+</code></pre>
+<p>Finalmente, unimos las cadenas de cada array en una sola utilizando el método <code>join()</code> y devolvemos el valor absoluto convertido a entero usando de nuevo la función <code>parseInt()</code>:</p>
+<pre><code><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">str1</span><span class="hl-0">: </span><span class="hl-6">string</span><span class="hl-0"> = </span><span class="hl-1">result1</span><span class="hl-0">.</span><span class="hl-5">join</span><span class="hl-0">(</span><span class="hl-9">&#39;&#39;</span><span class="hl-0">);</span><br/><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">str2</span><span class="hl-0">: </span><span class="hl-6">string</span><span class="hl-0"> = </span><span class="hl-1">result2</span><span class="hl-0">.</span><span class="hl-5">join</span><span class="hl-0">(</span><span class="hl-9">&#39;&#39;</span><span class="hl-0">);</span><br/><br/><span class="hl-2">return</span><span class="hl-0"> </span><span class="hl-6">Math</span><span class="hl-0">.</span><span class="hl-5">abs</span><span class="hl-0">(</span><span class="hl-5">parseInt</span><span class="hl-0">(</span><span class="hl-1">str1</span><span class="hl-0">, </span><span class="hl-3">2</span><span class="hl-0">) - </span><span class="hl-5">parseInt</span><span class="hl-0">(</span><span class="hl-1">str2</span><span class="hl-0">, </span><span class="hl-3">2</span><span class="hl-0">));</span>
+</code></pre>
+
+<a href="#ejercicio-7" id="ejercicio-7" style="color: inherit; text-decoration: none;">
+  <h3>Ejercicio 7</h3>
+</a>
+<p>Se define una función <a href="https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372/blob/master/src/ejercicio-7.ts">cabezasCerberus</a> que dado el número inicial de cabezas que tiene el Cerberus, el valor de n, así como la cantidad de ataques que Diana va a realizar, devuelva el número de cabezas que el Cerberus tendrá al final de los ataques.</p>
+
+<a href="#detalles-de-la-implementación-4" id="detalles-de-la-implementación-4" style="color: inherit; text-decoration: none;">
+  <h4>Detalles de la implementación</h4>
+</a>
+<p>Se declara factorial que es una variable que guarda el resultado de una llamada a la función que realiza el factorial de un número:</p>
+<pre><code><span class="hl-4">var</span><span class="hl-0"> </span><span class="hl-5">factorial</span><span class="hl-0"> = (</span><span class="hl-1">num</span><span class="hl-0">: </span><span class="hl-6">number</span><span class="hl-0">): </span><span class="hl-6">number</span><span class="hl-0"> </span><span class="hl-4">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">  </span><span class="hl-2">if</span><span class="hl-0"> (</span><span class="hl-1">num</span><span class="hl-0"> === </span><span class="hl-3">0</span><span class="hl-0">) {</span><br/><span class="hl-0">    </span><span class="hl-2">return</span><span class="hl-0"> </span><span class="hl-3">1</span><span class="hl-0">;</span><br/><span class="hl-0">  }</span><br/><span class="hl-0">  </span><span class="hl-2">return</span><span class="hl-0"> </span><span class="hl-1">num</span><span class="hl-0"> * </span><span class="hl-5">factorial</span><span class="hl-0">(</span><span class="hl-1">num</span><span class="hl-0"> - </span><span class="hl-3">1</span><span class="hl-0">); </span><br/><span class="hl-0">}</span>
+</code></pre>
+<p>La función itera sobre el número de ataques, dentro del bucle se realiza la formula siguiente:</p>
+<pre><code><span class="hl-1">cabezas</span><span class="hl-0"> = </span><span class="hl-1">cabezas</span><span class="hl-0"> - </span><span class="hl-3">1</span><span class="hl-0"> + </span><span class="hl-5">factorial</span><span class="hl-0">(</span><span class="hl-1">i</span><span class="hl-0">) * </span><span class="hl-1">n</span><span class="hl-0">;</span><br/><span class="hl-1">i</span><span class="hl-0">++;</span>
+</code></pre>
+<p>Finalmente, se devuelve el número de cabezas que se ha calculado.</p>
+
+<a href="#ejercicio-8" id="ejercicio-8" style="color: inherit; text-decoration: none;">
+  <h3>Ejercicio 8</h3>
+</a>
+<p>Se define una función <a href="https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372/blob/master/src/ejercicio-8.ts">pokemon</a> que reciba como parámetro el tipo de Pokemon que tiene, el tipo de Pokemon de su oponente, su capacidad de ataque y la capacidad de defensa de su oponente. La función devolverá como resultado el daño causado.</p>
+<p>Los ataques pueden ser super efectivos, neutrales o no muy efectivos. Esto depende del tipo de Pokemons que estén combatiendo.</p>
+<ul>
+<li>Super efectivo = x2 de daño</li>
+<li>Neutral = x1 de daño</li>
+<li>No muy efectivo = x0.5 de daño</li>
+</ul>
+
+<a href="#detalles-de-la-implementación-5" id="detalles-de-la-implementación-5" style="color: inherit; text-decoration: none;">
+  <h4>Detalles de la implementación</h4>
+</a>
+<p>Primero, se define un tipo de datos personalizado para los tipos de pokemon aceptados:</p>
+<pre><code><span class="hl-4">type</span><span class="hl-0"> </span><span class="hl-6">tiposPokemon</span><span class="hl-0"> = </span><span class="hl-9">&quot;fuego&quot;</span><span class="hl-0"> | </span><span class="hl-9">&quot;agua&quot;</span><span class="hl-0"> | </span><span class="hl-9">&quot;hierba&quot;</span><span class="hl-0"> | </span><span class="hl-9">&quot;electrico&quot;</span><span class="hl-0">;</span>
+</code></pre>
+<p>Para el cálculo de la efectividad se utilizan varios condicionales, que se resumen en el establecimiento de estos emparajamientos:</p>
+<ul>
+<li>fuego &gt; hierba</li>
+<li>fuego &lt; agua</li>
+<li>fuego = electrico</li>
+<li>fuego = fuego</li>
+</ul>
+<hr>
+<ul>
+<li>agua &lt; hierba</li>
+<li>agua = agua</li>
+<li>agua &lt; electrico</li>
+<li>agua &gt; fuego</li>
+</ul>
+<hr>
+<ul>
+<li>hierba = hierba</li>
+<li>hierba &gt; agua</li>
+<li>hierba = electrico</li>
+<li>hierba &lt; fuego</li>
+</ul>
+<hr>
+<ul>
+<li>electrico = hierba</li>
+<li>electrico &gt; agua</li>
+<li>electrico = electrico</li>
+<li>electrico = fuego</li>
+</ul>
+<p>Finalmente, se devuelve el daño que es calculado de la siguiente forma:</p>
+<pre><code><span class="hl-2">return</span><span class="hl-0"> </span><span class="hl-3">50</span><span class="hl-0"> * (</span><span class="hl-1">ataque</span><span class="hl-0"> / </span><span class="hl-1">defensa</span><span class="hl-0">) * </span><span class="hl-1">efectividad</span><span class="hl-0">;</span>
+</code></pre>
+
+<a href="#ejercicio-9" id="ejercicio-9" style="color: inherit; text-decoration: none;">
+  <h3>Ejercicio 9</h3>
+</a>
+<p>Se definen dos funciones <a href="https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372/blob/master/src/ejercicio-9.ts">romanToDecimal y decimalToRoman</a> que ayude a Astérix a convertir un número romano pasado como argumento al número entero en base decimal correspondiente y viceversa, el cual tiene que retornar la función.</p>
+
+<a href="#constantes" id="constantes" style="color: inherit; text-decoration: none;">
+  <h4>Constantes</h4>
+</a>
+<p>Se definen dos constantes, una que contiene los numeros decimales y otra sus respectivos en romano:</p>
+<pre><code><span class="hl-4">const</span><span class="hl-0"> </span><span class="hl-10">DECIMAL</span><span class="hl-0">: </span><span class="hl-6">number</span><span class="hl-0">[] = [</span><span class="hl-3">1000</span><span class="hl-0">, </span><span class="hl-3">900</span><span class="hl-0">, </span><span class="hl-3">500</span><span class="hl-0">, </span><span class="hl-3">400</span><span class="hl-0">, </span><span class="hl-3">100</span><span class="hl-0">, </span><span class="hl-3">90</span><span class="hl-0">, </span><span class="hl-3">50</span><span class="hl-0">, </span><span class="hl-3">40</span><span class="hl-0">, </span><span class="hl-3">10</span><span class="hl-0">, </span><span class="hl-3">9</span><span class="hl-0">, </span><span class="hl-3">5</span><span class="hl-0">, </span><span class="hl-3">4</span><span class="hl-0">, </span><span class="hl-3">1</span><span class="hl-0">];</span><br/><span class="hl-4">const</span><span class="hl-0"> </span><span class="hl-10">ROMAN</span><span class="hl-0">: </span><span class="hl-6">string</span><span class="hl-0">[] = [</span><span class="hl-9">&quot;M&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;CM&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;D&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;CD&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;C&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;XC&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;L&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;XL&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;X&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;IX&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;V&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;IV&quot;</span><span class="hl-0">, </span><span class="hl-9">&quot;I&quot;</span><span class="hl-0">];</span>
+</code></pre>
+<br>
+
+
+<a href="#romano-a-decimal" id="romano-a-decimal" style="color: inherit; text-decoration: none;">
+  <h4>Romano a decimal</h4>
+</a>
+<p>Se itera el sobre el tamaño del numero que se pasa por argumento, se escoge dos números:</p>
+<ul>
+<li><p>Si no se ha llegado al final:</p>
+<ol>
+<li>El primer número que coincide con el iterador</li>
+<li>El número siguiente</li>
+</ol>
+<p>  Si el primer número es mayor que el segundo se añade al resultado, en caso contrario se añade al resultado la resta del segundo menos el primero.</p>
+</li>
+<li><p>En caso contrario, se añade a la solución el primer número.</p>
+<pre><code><span class="hl-2">while</span><span class="hl-0"> (</span><span class="hl-1">i</span><span class="hl-0"> &lt; </span><span class="hl-1">num</span><span class="hl-0">.</span><span class="hl-1">length</span><span class="hl-0">) {</span><br/><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">roman1</span><span class="hl-0">: </span><span class="hl-6">number</span><span class="hl-0"> = </span><span class="hl-10">DECIMAL</span><span class="hl-0">[</span><span class="hl-10">ROMAN</span><span class="hl-0">.</span><span class="hl-5">indexOf</span><span class="hl-0">(</span><span class="hl-1">num</span><span class="hl-0">[</span><span class="hl-1">i</span><span class="hl-0">])];</span><br/><span class="hl-2">if</span><span class="hl-0"> (</span><span class="hl-1">i</span><span class="hl-0"> + </span><span class="hl-3">1</span><span class="hl-0"> &lt; </span><span class="hl-1">num</span><span class="hl-0">.</span><span class="hl-1">length</span><span class="hl-0">) {</span><br/><span class="hl-0">  </span><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">roman2</span><span class="hl-0">: </span><span class="hl-6">number</span><span class="hl-0"> = </span><span class="hl-10">DECIMAL</span><span class="hl-0">[</span><span class="hl-10">ROMAN</span><span class="hl-0">.</span><span class="hl-5">indexOf</span><span class="hl-0">(</span><span class="hl-1">num</span><span class="hl-0">[</span><span class="hl-1">i</span><span class="hl-0"> + </span><span class="hl-3">1</span><span class="hl-0">])];</span><br/><span class="hl-0">  </span><span class="hl-2">if</span><span class="hl-0"> (</span><span class="hl-1">roman1</span><span class="hl-0"> &gt;= </span><span class="hl-1">roman2</span><span class="hl-0">) {</span><br/><span class="hl-0">    </span><span class="hl-1">sum</span><span class="hl-0"> += </span><span class="hl-1">roman1</span><span class="hl-0">;</span><br/><span class="hl-0">    </span><span class="hl-1">i</span><span class="hl-0">++;</span><br/><span class="hl-0">  } </span><span class="hl-2">else</span><span class="hl-0"> {</span><br/><span class="hl-0">    </span><span class="hl-1">sum</span><span class="hl-0"> += </span><span class="hl-1">roman2</span><span class="hl-0"> - </span><span class="hl-1">roman1</span><span class="hl-0">;</span><br/><span class="hl-0">    </span><span class="hl-1">i</span><span class="hl-0"> += </span><span class="hl-3">2</span><span class="hl-0">;</span><br/><span class="hl-0">  }</span><br/><span class="hl-0">} </span><span class="hl-2">else</span><span class="hl-0"> {</span><br/><span class="hl-0">  </span><span class="hl-1">sum</span><span class="hl-0"> += </span><span class="hl-1">roman1</span><span class="hl-0">;</span><br/><span class="hl-0">  </span><span class="hl-1">i</span><span class="hl-0">++;</span><br/><span class="hl-0">}</span><br/><span class="hl-0">}</span>
+</code></pre>
+</li>
+</ul>
+<p>Finalmente, se devuelve la solución.</p>
+
+<a href="#decimal-a-romano" id="decimal-a-romano" style="color: inherit; text-decoration: none;">
+  <h4>Decimal a romano</h4>
+</a>
+<p>Se itera sobre la constante DECIMAL, y dentro de ese bucle se itera sobre el modulo del número decimal que se pasa por argumento y el número decimal sobre el que se esta iterando. Se añade al resultado el número romano que corresponde con el decimal que sobre el que se itera, y se descuenta una vez añadido al resultado:</p>
+<pre><code><span class="hl-2">for</span><span class="hl-0"> (</span><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">i</span><span class="hl-0"> = </span><span class="hl-3">0</span><span class="hl-0">; </span><span class="hl-1">i</span><span class="hl-0"> &lt; </span><span class="hl-10">DECIMAL</span><span class="hl-0">.</span><span class="hl-1">length</span><span class="hl-0">; </span><span class="hl-1">i</span><span class="hl-0">++) {</span><br/><span class="hl-0">  </span><span class="hl-2">while</span><span class="hl-0"> (</span><span class="hl-1">num</span><span class="hl-0"> % </span><span class="hl-10">DECIMAL</span><span class="hl-0">[</span><span class="hl-1">i</span><span class="hl-0">] &lt; </span><span class="hl-1">num</span><span class="hl-0">) {</span><br/><span class="hl-0">    </span><span class="hl-1">result</span><span class="hl-0"> += </span><span class="hl-10">ROMAN</span><span class="hl-0">[</span><span class="hl-1">i</span><span class="hl-0">];</span><br/><span class="hl-0">    </span><span class="hl-1">num</span><span class="hl-0"> -= </span><span class="hl-10">DECIMAL</span><span class="hl-0">[</span><span class="hl-1">i</span><span class="hl-0">];</span><br/><span class="hl-0">  }</span><br/><span class="hl-0">}</span>
+</code></pre>
+<p>Finalmente, se devuelve la solución.</p>
+
+<a href="#ejercicio-10" id="ejercicio-10" style="color: inherit; text-decoration: none;">
+  <h3>Ejercicio 10</h3>
+</a>
+<p>Se define una función <a href="https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct03-types-functions-alu0101327372/blob/master/src/ejercicio-10.ts">manhattanDistance</a> que recibe dos puntos como argumentos, que tengan el mismo número de coordenadas (n números enteros) y que devuelva la distancia de Manhattan entre ambos puntos.</p>
+
+<a href="#detalles-de-la-implementación-6" id="detalles-de-la-implementación-6" style="color: inherit; text-decoration: none;">
+  <h4>Detalles de la implementación</h4>
+</a>
+<p>Se reciben dos arrays como parámetros que corresponden con los dos puntos sobre el que se calculará la distancia de Manhattan. A continuación, se comprueba que los puntos sean del mismo tamaño:</p>
+<pre><code><span class="hl-2">if</span><span class="hl-0"> (</span><span class="hl-1">p1</span><span class="hl-0">.</span><span class="hl-1">length</span><span class="hl-0"> != </span><span class="hl-1">p2</span><span class="hl-0">.</span><span class="hl-1">length</span><span class="hl-0">) {</span><br/><span class="hl-0">  </span><span class="hl-2">return</span><span class="hl-0"> </span><span class="hl-3">0</span><span class="hl-0">;</span><br/><span class="hl-0">}</span>
+</code></pre>
+<p>Luego se itera sobre un punto y se añade al resultado el valor absoluto de la resta de los puntos:</p>
+<pre><code><span class="hl-2">for</span><span class="hl-0"> (</span><span class="hl-4">let</span><span class="hl-0"> </span><span class="hl-1">i</span><span class="hl-0"> = </span><span class="hl-3">0</span><span class="hl-0">; </span><span class="hl-1">i</span><span class="hl-0"> &lt; </span><span class="hl-1">p1</span><span class="hl-0">.</span><span class="hl-1">length</span><span class="hl-0">; </span><span class="hl-1">i</span><span class="hl-0">++) {</span><br/><span class="hl-0">  </span><span class="hl-1">result</span><span class="hl-0"> += </span><span class="hl-6">Math</span><span class="hl-0">.</span><span class="hl-5">abs</span><span class="hl-0">(</span><span class="hl-1">p1</span><span class="hl-0">[</span><span class="hl-1">i</span><span class="hl-0">] - </span><span class="hl-1">p2</span><span class="hl-0">[</span><span class="hl-1">i</span><span class="hl-0">])</span><br/><span class="hl-0">}</span>
+</code></pre>
+<p>Finalmente, se devuelve el resultado.</p>
+</div></div><div class="col-4 col-menu menu-sticky-wrap menu-highlight"><nav class="tsd-navigation primary"><ul><li class="current"><a href="modules.html">Modules</a></li><li class=" tsd-kind-module"><a href="modules/ejercicio_1.html">ejercicio-<wbr/>1</a></li><li class=" tsd-kind-module"><a href="modules/ejercicio_10.html">ejercicio-<wbr/>10</a></li><li class=" tsd-kind-module"><a href="modules/ejercicio_3.html">ejercicio-<wbr/>3</a></li><li class=" tsd-kind-module"><a href="modules/ejercicio_4.html">ejercicio-<wbr/>4</a></li><li class=" tsd-kind-module"><a href="modules/ejercicio_5.html">ejercicio-<wbr/>5</a></li><li class=" tsd-kind-module"><a href="modules/ejercicio_6.html">ejercicio-<wbr/>6</a></li><li class=" tsd-kind-module"><a href="modules/ejercicio_7.html">ejercicio-<wbr/>7</a></li><li class=" tsd-kind-module"><a href="modules/ejercicio_8.html">ejercicio-<wbr/>8</a></li><li class=" tsd-kind-module"><a href="modules/ejercicio_9.html">ejercicio-<wbr/>9</a></li></ul></nav></div></div></div><footer class="with-border-bottom"><div class="container"><h2>Legend</h2><div class="tsd-legend-group"><ul class="tsd-legend"><li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li><li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li></ul></div><h2>Settings</h2><p>Theme <select id="theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></p></div></footer><div class="container tsd-generator"><p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div><div class="overlay"></div><script src="assets/main.js"></script></body></html>
